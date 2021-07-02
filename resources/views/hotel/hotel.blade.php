@@ -45,12 +45,12 @@
                                             <form method="POST"
                                                 action="{{ url('hotel/destroy', ['user' => $user->id]) }}">
 
-                                                <a class=" btn btn btn-primary"
+                                                <a class=" btn btn btn-success"
                                                     href="{{ url('hotel/edit', ['user' => $user->id]) }}"> <i
                                                         class="fa fa-check"></i> </a>
 
 
-                                                <a class=" btn btn btn-primary"
+                                                <a class=" btn btn btn-warning"
                                                     href="{{ url('hotel/update', ['user' => $user->id]) }}"> <i
                                                         class="fa fa-times"></i> </a>
 

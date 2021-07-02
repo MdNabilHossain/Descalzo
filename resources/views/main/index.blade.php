@@ -50,6 +50,7 @@
                         <li><a href="{{route('guide')}}"><span class="fa fa-male"></span> Guide</a></li>
                         <li><a href="{{route('msg')}}"><span class="fa fa-comments"></span> Messages</a></li>
                         <li><a href="{{route('calendar')}}"><span class="fa fa-calendar"></span> Calendar</a></li>
+                        <li><a href="{{url('report')}}"><span class="fa fa-signal"></span> Reports</a></li>
                         
                         
                         <li><a href="{{route('search')}}"><span class="fa fa-search"></span> Search</a></li>

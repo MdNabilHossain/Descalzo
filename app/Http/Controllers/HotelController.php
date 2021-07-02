@@ -93,7 +93,7 @@ class HotelController extends Controller
     {
         $this->data['user']= Hotel_Owner::findOrFail($id);
         if ( Hotel_Owner::find($id)->delete()) {
-            Session::flash('message',"Tourist Deleted Successfully..");
+            Session::flash('message',"Hotel Deleted Successfully..");
          }
          else {
              Session::flash('message',"Hotel not  Delete .");
